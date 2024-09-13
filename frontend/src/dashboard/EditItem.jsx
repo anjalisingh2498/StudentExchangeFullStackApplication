@@ -42,7 +42,7 @@ const handleUpdate =(event)=>{
     bookTitle,bookAuthor,imageURL,bookGenre, bookDescription, bookPDFURL
   }
  // console.log(bookObject)
- fetch("http://localhost:5000/book/${id}", {
+ fetch("https://studentexchangefullstackapplication.onrender.com/book/${id}", {
     method:"PATCH",
     headers: {
       'Content-Type': 'application/json'
@@ -74,7 +74,7 @@ const handleUpdate = (event) => {
     bookPDFURL,
   };
 
-  fetch(`http://localhost:5000/book/${id}`, {
+  fetch(`https://studentexchangefullstackapplication.onrender.com/book/${id}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json",

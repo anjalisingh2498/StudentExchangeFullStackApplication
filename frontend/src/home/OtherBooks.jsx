@@ -4,7 +4,7 @@ import BookCards from '../components/BookCards';
 const OtherBooks = () => {
     const [books, setBooks] = useState([]);
     useEffect(()=>{
-        fetch("http://localhost:5000/all-books").then(res => res.json()).then(data => setBooks(data.slice(6,11)))
+        fetch("https://studentexchangefullstackapplication.onrender.com/all-books").then(res => res.json()).then(data => setBooks(data.slice(6,11)))
     })
   return (
     <div>

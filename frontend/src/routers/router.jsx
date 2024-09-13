@@ -57,7 +57,7 @@ import AlumniStories from "../components/AlumniStories.jsx";
           element:<SingleBook/>,
           loader: async ({ params }) => {
             try {
-              const response = await fetch(`http://localhost:5000/book/${params.id}`);
+              const response = await fetch(`https://studentexchangefullstackapplication.onrender.com/book/${params.id}`);
               if (!response.ok) {
                 throw new Error(`Failed to fetch book ${params.id}: ${response.status}`);
               }
@@ -91,7 +91,7 @@ import AlumniStories from "../components/AlumniStories.jsx";
         // {
         //   path:"/admin/dashboard/edit-books/:id",
         //   element:<EditItem/>,
-        //   loader:({params}) => fetch('http://localhost:5000/book/${params.id}')
+        //   loader:({params}) => fetch('https://studentexchangefullstackapplication.onrender.com/book/${params.id}')
         // }
 
         {
@@ -99,7 +99,7 @@ import AlumniStories from "../components/AlumniStories.jsx";
           element:<EditItem/>,
           loader: async ({params}) => {
             try {
-              const response = await fetch(`http://localhost:5000/book/${params.id}`);
+              const response = await fetch(`https://studentexchangefullstackapplication.onrender.com/book/${params.id}`);
               if (!response.ok) {
                 throw new Error(`Failed to fetch book ${params.id}: ${response.status}`);
               }
