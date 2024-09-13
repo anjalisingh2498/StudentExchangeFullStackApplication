@@ -7,7 +7,7 @@ const Shop = () => {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/all-books")
+    fetch("https://studentexchangefullstackapplication.onrender.com/all-books")
       .then(res => res.json())
       .then(data => {
         // Simulate dummy discounts for demonstration
