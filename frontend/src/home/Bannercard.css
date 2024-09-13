@@ -18,11 +18,11 @@
   }
   
   .ban .swiper-slide:nth-child(2n) {
-    background-image: url('src/assets/Images/abstractbook.jpg');
+    background-image: url('https://studentexchangefullstackapplication-cl7l.onrender.com/assets/abstractbook-D9BzsoQ_.jpg');
   }
   
   .ban .swiper-slide:nth-child(3n) {
-    background-image: url('src/assets/Images/lab.jpg');
+    background-image: url('https://studentexchangefullstackapplication-cl7l.onrender.com/assets/lab-DwicqeJU.jpg');
   }
   
   .ban .swiper-slide:nth-child(4n) {
@@ -30,6 +30,6 @@
   }
   
   .ban .swiper-slide:nth-child(5n) {
-    background-image: url('src/assets/Images/stationary.jpg');
+    background-image: url('https://studentexchangefullstackapplication-cl7l.onrender.com/assets/stationary-B_7x6ikn.jpg');
   }
   
